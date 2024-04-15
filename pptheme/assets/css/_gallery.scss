@@ -1,0 +1,27 @@
+/**
+ * Lightbox
+ */
+.featherlight-next span,
+.featherlight-previous span {
+	text-shadow: 2px 2px 4px #999;
+}
+
+.video_gallery .cell {
+	position: relative;
+}
+
+.video_gallery .play {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	opacity: .7;
+}
+
+.video_gallery .play:hover {
+	opacity: 1;
+	color: #e14d43;
+}

@@ -1,0 +1,100 @@
+/**
+ * Services
+ */
+
+.service-wrapper img,
+.service-image img,
+.widget_services img {
+	width: 100%;
+	height: auto;
+}
+
+.service-style-title-image-excerpt1 .service-title,
+.service-style-title-image-excerpt1 .service-image,
+.service-style-title-image-excerpt2 .service-title,
+.service-style-title-image-excerpt2 .service-image {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.service-style-title-image-excerpt2 .service-excerpt {
+	padding: .9375rem 1.9375rem;
+}
+
+.service-wrapper.service-style-title-image-excerpt1,
+.service-wrapper.service-style-title-image-excerpt2 {
+	display: flex;
+	padding: 0 !important;
+}
+
+.service-style-title-image-excerpt1 .service-title,
+.service-style-title-image-excerpt2 .service-title,
+.service-style-title-image-excerpt1 .service-title a,
+.service-style-title-image-excerpt2 .service-title a {
+	width: 100%;
+}
+
+.service-style-title-image-excerpt1 .service-title a,
+.service-style-title-image-excerpt2 .service-title a {
+	padding: 0.5em 0;
+	display: inline-block;
+}
+
+.service-style-title-image-excerpt1 .service-image,
+.service-style-title-image-excerpt2 .service-image {
+	width: 100%;
+	margin-top: -1px;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	
+	#services>div {
+		margin: 0 0.5em;
+	}
+
+	.service-wrapper {
+		padding: 0.5em 0;
+	}
+
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	.service-wrapper.service-style-title-overlay-image {
+		position: relative;
+		display: block;
+	}
+
+	.service-title {
+		width: 100%;
+	}
+
+	.service-style-title-overlay-image .service-title {
+		bottom: 0;
+		position: absolute;
+	}
+
+	.service-title a {
+		background: rgba(119, 119, 119, 0.9);
+		color: #fff;
+		display: inline-block;
+		padding: 0.5em 1em;
+		text-align: center;
+		width: 100%;
+	}
+
+	.service-title a:hover {
+		color: yellow;
+	}
+
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+
+	.home .service-wrapper {
+		margin-bottom: initial;
+	}
+
+}

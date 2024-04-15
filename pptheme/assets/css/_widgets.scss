@@ -1,0 +1,109 @@
+/**
+ * Widgets
+ */
+.widget ul {
+	list-style: none;
+}
+
+.widget>ul {
+	margin-left: 0;
+}
+
+.widget_recent_entries_thumbs ul li,
+.widget_services ul li {
+	margin-bottom: 1em;
+}
+
+.advanced-menu-widget .menu.vertical>li>a {
+	padding: 0.5rem 0;
+}
+
+.wpcf7-form p {
+	line-height: 0.5em;
+	margin: 0;
+}
+
+
+
+.sidebar .widget,
+.home section .widget {
+	background: #f1f1f1;
+	padding: 0 .9375rem .9375rem;
+	margin-bottom: 2em;
+}
+
+.sidebar .widgettitle,
+.home section .widgettitle {
+	background: #777;
+	padding: 0.5em;
+	color: #fff;
+	margin: 0 -.9375rem 1em;
+}
+
+.sidebar .widget {
+	margin-bottom: 2em;
+}
+
+.widgettitle:empty {
+	display: none;
+}
+
+.rl-image-widget,
+.widget_media_image {
+	padding: 0 !important;
+}
+
+.widget_recent_entries_thumbs .post-excerpt {
+	line-height: 1.4;
+	margin: 0;
+}
+
+.widget_recent_entries_thumbs .post-date small {
+	font-size: 0.7rem;
+	font-style: italic;
+}
+
+.service-wrapper .image.featured,
+.widget_recent_entries_thumbs .small-4 a,
+.widget_services .small-4 a {
+	display: block;
+	overflow: hidden;
+}
+
+.widget_recent_entries_thumbs a,
+.widget_services a {
+	color: #000;
+}
+
+.service-wrapper .image.featured img,
+.widget_recent_entries_thumbs img,
+.widget_services img {
+	transition: all .2s ease-in-out;
+}
+
+.service-wrapper .image.featured img:hover,
+.widget_recent_entries_thumbs img:hover,
+.widget_services img:hover {
+	transform: scale(1.1);
+}
+
+.widget_services .grid-x {
+	padding: 0.5em 0;
+	margin-right: -1em;
+}
+
+.widget_nav_menu ul,
+.widget_recent_entries ul,
+.products {
+	list-style: none
+}
+
+#content,
+.sidebar {
+	margin-top: 1em;
+}
+
+.entry-content ul:not([class*="wp-block-"]),
+.widget_archive ul {
+	margin-left: 2em;
+}

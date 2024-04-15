@@ -1,0 +1,27 @@
+.wp-block-latest-posts.is-style-card li {
+
+    box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.1);
+
+    .wp-block-latest-posts__post-excerpt,
+    >a, >time {
+        margin-left: .9375rem;
+        margin-right: .9375rem;
+    }
+
+    >a {
+        display: block;
+        font-size: 1.6rem;
+        margin-top: .6375rem;
+        margin-bottom: .3375rem;
+    }
+}
+
+.ab-post-grid-item {
+    box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.1);
+
+    .ab-block-post-grid-text {
+        margin-left: .9375rem;
+        margin-right: .9375rem;
+        margin-bottom: .9375rem;
+    }
+}

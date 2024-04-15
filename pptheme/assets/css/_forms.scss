@@ -1,0 +1,25 @@
+/* _forms */
+
+.button-search {
+	background: transparent;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	color: #cacaca;
+	display: block;
+	padding: .7rem 1rem;
+	position: absolute;
+	right: 0;
+	text-shadow: none;
+	top: 0;
+}
+
+.button-search:hover {
+	color: #32373c;
+	cursor: pointer;
+}
+
+
+.button {
+	background: #777;
+}

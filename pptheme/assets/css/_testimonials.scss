@@ -1,0 +1,40 @@
+/**
+ * Testimonials
+ */
+
+.testimonials blockquote {
+	position: relative;
+	border-radius: 4px;
+	padding: 35px 40px 35px 70px;
+	background: #eee;
+	border: none;
+	font-style: italic;
+	margin-bottom: 12px;
+	quotes: "\201C""\201D""\2018""\2019";
+	margin-bottom: 2em;
+}
+
+.testimonials blockquote:after {
+	content: open-quote;
+	position: absolute;
+	width: 45px;
+	height: 32px;
+	top: 0;
+	font-size: 5rem;
+	left: 10px;
+	font-family: initial;
+}
+
+.testimonials blockquote:before {
+	position: absolute;
+	bottom: -20px;
+	left: 5em;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 20px solid #eee;
+	border-right: 0 solid transparent;
+	border-left: 20px solid transparent;
+	content: close-quote;
+	color: transparent;
+}

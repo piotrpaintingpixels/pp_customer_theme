@@ -1,0 +1,70 @@
+/* Footer */
+
+#footer {
+	font-size: 0.9rem;
+	padding: 4em 0 0;
+}
+
+#footer footer>div>.cell ul {
+	list-style: none;
+}
+
+.footer2 {
+	padding: 2em 0 1em;
+	margin-top: 2em;
+}
+
+.footer-social {
+	text-align: right;
+}
+
+.footer-bottom-contact {
+	text-align: center;
+}
+
+.footer-social svg {
+	height: 2.5em;
+	width: 4em;
+}
+
+.footer-social svg,
+.widget-svg-social-menu ul svg {
+	fill: currentColor !important;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	footer .widget {
+		margin: 1em;
+		padding: 0 1em;
+	}
+
+	.footer-copyright,
+	.footer-social,
+	.footer-designedby {
+		text-align: center;
+	}
+
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+
+	.footer-social svg {
+		height: 1.5em;
+		width: 2em;
+	}
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+
+	#footer footer .cell>div {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+}

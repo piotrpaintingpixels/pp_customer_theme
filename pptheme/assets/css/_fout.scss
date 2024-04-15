@@ -1,0 +1,14 @@
+.no-js .orbit-image,
+.no-js [data-accordion-menu],
+.no-js .top-bar {
+    display: none;
+    @media screen and (min-width: 64em) {
+        display: block;
+    }
+}
+
+.no-js .title-bar {
+    @media screen and (min-width: 64em) {
+        display: none;
+    }
+}

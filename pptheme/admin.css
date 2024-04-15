@@ -1,0 +1,7 @@
+#n2-admin img {
+	box-sizing: border-box;
+	/*background: url('images/painting-pixels-logo.svg');*/
+	padding-left: 165px;
+	width: 165px;
+	height: 48px;
+}

@@ -208,6 +208,6 @@ new Updater(
 		'repo' => 'piotrpaintingpixels/pp_customer_theme',             // Theme repository.
 		'slug' => 'pptheme',                     // Theme Slug.
 		'url'  => 'https://www.paintingpixels.co.uk', // Theme URL.
-		'ver'  => 1.5.4                          // Theme Version.
+		'ver'  => 1.5.5                          // Theme Version.
 	]
 );

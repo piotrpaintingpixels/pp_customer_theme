@@ -116,13 +116,13 @@ require_once ('inc/plugin-installer.php');
 /**
  * Contact Form 7
  */
-function check_cf7_plugin_installed()
-{
-	if (is_plugin_active('contact-form-7/wp-contact-form-7.php')) {
-		require_once('inc/contact-form7-mods.php');
-	}
-}
-add_action('admin_init', 'check_cf7_plugin_installed');
+//function check_cf7_plugin_installed()
+//{
+//	if (is_plugin_active('contact-form-7/wp-contact-form-7.php')) {
+//		require_once('inc/contact-form7-mods.php');
+//	}
+//}
+//add_action('admin_init', 'check_cf7_plugin_installed');
 
 /**
  * Default theme settings on activation (eg image sizes)

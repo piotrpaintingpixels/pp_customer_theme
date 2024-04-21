@@ -56,7 +56,7 @@ require_once( 'inc/menu-walker.php' );
 require_once( 'inc/widget-areas.php' );
 require_once( 'inc/widgets/widget-recent-posts-thumbs.php' );
 require_once( 'inc/widgets/widget-advanced-custom-menu.php' );
-//require_once( 'inc/widgets/widget-contact.php' );
+//<strong><strong></strong></strong>require_once( 'inc/widgets/widget-contact.php' );
 
 /**
  * Return entry meta information for posts

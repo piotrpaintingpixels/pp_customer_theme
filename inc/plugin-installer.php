@@ -91,10 +91,16 @@ function paintingpixels_register_required_plugins() {
 		),*/
 
 		// This is an example of how to include a plugin from the WordPress Plugin Repository.
+		//array(
+		//	'name'      => 'Advanced Automatic Updates',
+		//	'slug'      => 'automatic-updater',
+		//	'required'  => false,
+		//),
+		
 		array(
-			'name'      => 'Advanced Automatic Updates',
-			'slug'      => 'automatic-updater',
-			'required'  => false,
+			'name'      => 'Deployer for Git',
+			'slug'      => 'deployer-for-git',
+			'required'  => true,
 		),
 
 		array(

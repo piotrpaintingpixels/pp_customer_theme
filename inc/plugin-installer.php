@@ -115,11 +115,11 @@ function paintingpixels_register_required_plugins() {
 			'required'  => false,
 		),
 
-		array(
-			'name'      => 'Contact Form 7 MailChimp Extension',
-			'slug'      => 'contact-form-7-mailchimp-extension',
-			'required'  => false,
-		),
+		//array(
+		//	'name'      => 'Contact Form 7 MailChimp Extension',
+		//	'slug'      => 'contact-form-7-mailchimp-extension',
+		//	'required'  => false,
+		//),
 
 		array(
 			'name'      => 'Kirki',

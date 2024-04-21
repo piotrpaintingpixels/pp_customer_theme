@@ -147,18 +147,3 @@ require_once('inc/custom-admin.php');
 /**
  * Theme Updates
  */
-//require 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php';
-//$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-//	'https://bitbucket.org/ppthemeteam/pptheme',
-//	__FILE__,
-//	'pptheme'
-//);
-//$myUpdateChecker->setAuthentication(array(
-//	'consumer_key' => 'nfSesQnraQtrPcfgB8',
-//	'consumer_secret' => 'T8VwJWSaPDeD5e2vAHb9eg97MLTTqpwt',
-//));
-//$myUpdateChecker->setBranch('master');
-
-add_action( 'after_setup_theme', function() {
-	get_template_part( 'inc/classes/Updater' );
-});

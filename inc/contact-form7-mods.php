@@ -3,7 +3,7 @@
  * Contact Form 7 mods
  */
 
-function cf7pp_default_template( $template, $prop = 'form' ) {
+/*function cf7pp_default_template( $template, $prop = 'form' ) {
 	if ( 'form' == $prop ) {
 		$template = cf7pp_default_form_template();
 	}
@@ -21,4 +21,5 @@ function cf7pp_default_form_template() {
 
 	return $template;
 }
+*/
 
